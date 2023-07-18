@@ -17,7 +17,7 @@ app.use(require('./router/auth'));
 app.use("/uploads",express.static('uploads'));
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 
 
